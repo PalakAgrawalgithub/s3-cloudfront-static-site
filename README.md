@@ -2,7 +2,11 @@
 
 Live Demo: https://d2vz1vmcx9vrm5.cloudfront.net
 
-## What I built
-- Hosted static files in a private Amazon S3 bucket
-- Served content globally via CloudFront CDN
-- Enabled HTTPS with CloudFront
+## Tech Stack
+- Amazon S3 (private bucket)
+- Amazon CloudFront (CDN)
+
+## What I did
+- Uploaded static site files to S3
+- Used CloudFront to serve content globally over HTTPS
+- Restricted S3 access to CloudFront (no public S3 access)
